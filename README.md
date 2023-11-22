@@ -1,6 +1,6 @@
 # PTAdcci0321
 
-Testing basic functionalities of https://www.goodreads.com/
+QAA basic functionalities of https://www.goodreads.com/
 
 * Login with Valid Data
 * Login with Invalid Data
