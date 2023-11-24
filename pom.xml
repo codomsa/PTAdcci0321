@@ -13,17 +13,17 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!-- Updated Serenity version -->
+
         <serenity.version>3.1.5</serenity.version>
-        <!-- Updated SLF4J version -->
+
         <slf4j.version>1.7.36</slf4j.version>
-        <!-- Updated JUnit version -->
+
         <junit.version>4.13.2</junit.version>
-        <!-- Compiler plugin version -->
+
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <!-- Surefire plugin version -->
+
         <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
-        <!-- Failsafe plugin version -->
+
         <maven-failsafe-plugin.version>3.0.0-M5</maven-failsafe-plugin.version>
     </properties>
 
@@ -58,7 +58,6 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
-        <!-- Removed screenplay dependencies since they were not found -->
     </dependencies>
 
     <build>

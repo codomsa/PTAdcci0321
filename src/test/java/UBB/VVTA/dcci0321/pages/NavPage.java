@@ -18,8 +18,6 @@ public class NavPage extends PageObject {
 
     public void openProfileDropdown() {
         WebElementFacade settingsButton = $(profileDropdown).waitUntilClickable();
-
-        // Use JavaScript to open the dropdown and prevent it from closing
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
         js.executeScript("arguments[0].click();", settingsButton);
     }
